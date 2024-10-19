@@ -38,17 +38,17 @@ The MVP for this website encompasses the following:
 
 The following is a flow-chart with the flow of user interaction with the web pages:
 
-![User Interaction Flow Chart](/doc/images/WebPage-Flow.png)
+<!-- ![User Interaction Flow Chart](/doc/images/WebPage-Flow.png) -->
 
 ## Wireframes
 
 The entry page for the website will allow the user to either signup, login, or search for a route for their workout.  The user may further refine their route search by selecting one of the icons: runner, bicyclist, mountain biker.
 
-![Splash Page](/doc/images/1-SplashPage.png)
+<!-- ![Splash Page](/doc/images/1-SplashPage.png) -->
 
 Once a search has been initiated the user will be taken to the search results page, showing a condensed synopsis of the routes that match the search.  The routes will be indicated as bicycling, mountain biking, or running based upon the icons to the left of the route information, along with the route poster's avatar.  Additional route summary information is included with distance, elevation, and time, a small image of the route.
 
-![Explore Routes](/doc/images/2-ExploreRoutes.png)
+<!-- ![Explore Routes](/doc/images/2-ExploreRoutes.png) -->
 
 This concludes the limited functionality for users without accounts.  The following details require the user to have signed up and be logged in to access.
 
