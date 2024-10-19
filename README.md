@@ -54,11 +54,11 @@ This concludes the limited functionality for users without accounts.  The follow
 
 On the Explore routes page, the user has the option to create a brand new route, or add any of the routes shown to their workouts.  When added to the user's workouts, the status will show "Workout Pending" until the user completes the details of their workout, like adding a workout time, date, photos and description.  Once saved, that workout will be available for the user to view details in their workouts collection.
 
-![Edit Workout Details](/doc/images/4b-EditWorkoutDetails.png)
+<!-- ![Edit Workout Details](/doc/images/4b-EditWorkoutDetails.png) -->
 
 Once route details have been edited and saved, this route is updated on the user's workout page to show that the route has been completed.  (The pending flag is removed, and the "view details" button is enabled).
 
-![View Workouts](/doc/images/4a-WorkoutDetails.png)
+<!-- ![View Workouts](/doc/images/4a-WorkoutDetails.png) -->
 
 Refering the reader back to the Explore Routes page, if the user does not find any routes to their liking, there is an option to create a new route.  This option refers the user over to the Create Route page as shown below.  On this page, the user is able to either enter a location to start their route, and begin mapping out a new route from scratch ... or, by entering that location, all routes available to the public within 25 miles of that starting location will be shown with the user's avatar and a brief summary of the route on the right-hand pane of the page.
 
@@ -68,15 +68,15 @@ Note:  IF the user choses to edit a route, the user will have to "undo" the rout
 
 The following is a screen shot of this Create Route page:
 
-![Create Route](/doc/images/5-CreateRoute.png)
+<!-- ![Create Route](/doc/images/5-CreateRoute.png) -->
 
 Not to forget about the user login page, a Demo user has been provided for those who wish a sandbox to play with existing functionality.  Simply click on the Demo user button and you will be logged in.  Otherwise, enter your user email address and password if you have an account:
 
-![Login Page](/doc/images/6-Login.png)
+<!-- ![Login Page](/doc/images/6-Login.png) -->
 
 However, if the user does not have an account, there is a link on the Login Page to take the user to the Sign Up page where the user will be able to create a login account, indicate their avatar URL, and log in:
 
-![Sign-Up.png](/doc/images/7-Sign-Up.png)
+<!-- ![Sign-Up.png](/doc/images/7-Sign-Up.png) -->
 
 ## Database Model
 
@@ -90,7 +90,7 @@ When a user creates a workout, the routeId is maintained in the workout,  A user
 
 The following is a graphic representation of the database models.
 
-![Database ERD](/doc/images/db-ERD.png)
+<!-- ![Database ERD](/doc/images/db-ERD.png) -->
 
 ## Google Maps API
 
@@ -117,43 +117,43 @@ Components are broken into feature components with particular emphasis on reusin
 
 The signup page, and the login page are specific use components which will not include any aggregate components:
 
-![Signup Page](/doc/images/Component-SignUp.png).
+<!-- ![Signup Page](/doc/images/Component-SignUp.png). -->
 
 The Login Page Component:
 
-![Login Page](/doc/images/Component-Login.png)
+<!-- ![Login Page](/doc/images/Component-Login.png) -->
 
 The splash screen utilises the search component, and NavBar component, so this component is very simplistic in nature:
 
-![Splash screen component](/doc/images/Component-SplashScreen.png)
+<!-- ![Splash screen component](/doc/images/Component-SplashScreen.png) -->
 
 However, most of the pages contain additional components, such as the navbar component used across all pages:
 
-![NavBar component](/doc/images/Component-NavBar.png)
+<!-- ![NavBar component](/doc/images/Component-NavBar.png) -->
 
 And the search bar component used as a common component on multiple pages:
 
-![SearchBar Component](/doc/images/Component-SearchBar.png)
+<!-- ![SearchBar Component](/doc/images/Component-SearchBar.png) -->
 
 The photo array will be used for many different workouts, and as such in itself will be a component:
 
-![PhotoArray Component](/doc/images/Component-PhotoArray.png)
+<!-- ![PhotoArray Component](/doc/images/Component-PhotoArray.png) -->
 
 The Map component will be used multiple times on a page, and across multiple pages, which in itself begged to be componentized.  Notice only a couple of areas deviate on this component depending upon whether this component is being utilised on the Explore Routes page, or the Workouts Collection Page:
 
-![Map Component](/doc/images/Component-Map.png)
+<!-- ![Map Component](/doc/images/Component-Map.png) -->
 
 The Create Route component is perhaps the most complex of the components, made up of both the sidebar component:
 
-![Nearby Routes Sidebar](/doc/images/Component-NearbyRoutesSideBar.png)
+<!-- ![Nearby Routes Sidebar](/doc/images/Component-NearbyRoutesSideBar.png) -->
 
 The main component, our Google Maps component is wrapped in our customized Map component:
 
-![Map Wrapper Component](/doc/images/Component-MapComponent.png)
+<!-- ![Map Wrapper Component](/doc/images/Component-MapComponent.png) -->
 
 And finally, the form included at the bottom of the form, our CreateRoute component:
 
-![Create Route Component](/doc/images/Component-CreateRoute.png)
+<!-- ![Create Route Component](/doc/images/Component-CreateRoute.png) -->
 
 ## API Endpoints
 
