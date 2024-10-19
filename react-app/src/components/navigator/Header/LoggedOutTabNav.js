@@ -20,7 +20,7 @@ import {logout} from "../../../services/auth"
 import { useHistory, useLocation, useParams } from "react-router-dom";
 
 import AllInclusiveIcon from '@material-ui/icons/AllInclusive';
-// import CadenceLogo;
+// import MotoradsLogo;
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
@@ -86,7 +86,7 @@ const LoggedOutTabNav = () => {
         <Tabs indicatorColor={'primary'} value={selectedTab} onChange={handleChange}>
             <Tab value={0} onClick={() => history.push('/')}
                 // label={ <img className={classes.large} style={{maxHeight: "3em", maxWidth: "3em"}} src='bike.jpg'/>}>
-                label={ <img className={classes.large} style={{maxHeight: "3em", maxWidth: "3em"}} src='https://cadenceappacademy.s3.amazonaws.com/bike.jpg'/>}>
+                label={ <img className={classes.large} style={{maxHeight: "3em", maxWidth: "3em"}} src='https://Motoradsappacademy.s3.amazonaws.com/bike.jpg'/>}>
 
                 
             </Tab>

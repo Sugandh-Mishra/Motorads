@@ -68,23 +68,23 @@ There is a layer in the Dockerfile that will install psycopg2 (not binary) for u
    heroku container:login
    ```
 6. Update the `REACT_APP_BASE_URL` variable in the Dockerfile.
-   This should be the full URL of your Heroku app: i.e. "`https://cadence-appacademy-group-proj.herokuapp.com`"
+   This should be the full URL of your Heroku app: i.e. "`https://Motorads-appacademy-group-proj.herokuapp.com`"
 7. Push your docker container to heroku from the root directory of your project.
    This will build the dockerfile and push the image to your heroku container registry
 
    ```bash
-   heroku container:push web -a cadence-appacademy-group-proj
+   heroku container:push web -a Motorads-appacademy-group-proj
    ```
 8. Release your docker container to heroku
 
    ```bash
-   heroku container:release web -a cadence-appacademy-group-proj
+   heroku container:release web -a Motorads-appacademy-group-proj
    ```
 9. set up your database:
 
    ```bash
-   heroku run -a cadence-appacademy-group-proj pipenv run flask db upgrade
-   heroku run -a cadence-appacademy-group-proj pipenv run flask seed all
+   heroku run -a Motorads-appacademy-group-proj pipenv run flask db upgrade
+   heroku run -a Motorads-appacademy-group-proj pipenv run flask seed all
    ```
 10. Under Settings find "Config Vars" and add any additional/secret .env variables.
 11. profit

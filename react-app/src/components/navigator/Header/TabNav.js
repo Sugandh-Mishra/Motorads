@@ -19,7 +19,7 @@ import {
 import { useHistory, useLocation, useParams } from "react-router-dom";
 import Logo from "./Logo"
 import AllInclusiveIcon from '@material-ui/icons/AllInclusive';
-// import CadenceLogo;
+// import MotoradsLogo;
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
@@ -62,7 +62,7 @@ const TabNav = () => {
 
     const [selectedTab, setSelectedTab] = useState(indexToTabName[page]);
     const history = useHistory()
-    const [image , setImage] = useState(`https://cadenceappacademy.s3.amazonaws.com/bike.jpg`)
+    const [image , setImage] = useState(`https://Motoradsappacademy.s3.amazonaws.com/bike.jpg`)
 
     // const useStyles = theme => ({
     //     indicator: {
