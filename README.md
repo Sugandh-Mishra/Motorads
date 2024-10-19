@@ -1,6 +1,6 @@
-# Cadence Project
+# Motorads Project
 
-The Cadence Project is a limited feature clone of the Strava app.  This clone will provide the user with the ability to create workout routes using google maps, save these routes to their own private feed or make these workout routes available to the general public.  These routes will provide the user with data such as elevation changes, distances, estimated time to complete (either by walking or biking).
+The Motorads Project is a limited feature clone of the Strava app.  This clone will provide the user with the ability to create workout routes using google maps, save these routes to their own private feed or make these workout routes available to the general public.  These routes will provide the user with data such as elevation changes, distances, estimated time to complete (either by walking or biking).
 
 Additionally, the app will allow the user to upload the photos of the user's workout, as well as provide a description of the individual workouts along with the workout time.
 
